@@ -1,0 +1,41 @@
+body {
+    color: black;
+    background-color: rgb(250, 192, 213);
+    font-family: "Arial", "sans-serif";
+    font-size: 20px;
+}
+
+header {
+    color: antiquewhite;
+    background-color: bisque;
+    margin: 20px auto ;
+    padding: 40px 40px 40px 40px;
+    border-color: bisque;
+    border-style: solid;
+    border-radius: 64px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#format {
+    background-color: rgb(92, 244, 198);
+}
+
+b, i, del {
+    background-color: rgb(155, 221, 248);
+}
+
+.main-tytle {
+    color: aqua;
+    font-size: 50px;
+}
+
+.site-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.site-menu li {
+    padding: 20px;
+}
